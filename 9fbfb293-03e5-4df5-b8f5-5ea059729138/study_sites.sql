@@ -1,0 +1,32 @@
+select
+ tenant_id
+,account_name
+,study_id
+,study_country_id
+,study_site_id
+,study_name
+,country_code
+,site_number
+,pi_first_name
+,pi_last_name
+,cros_pi_id
+,sponsors_pi_id
+,institution
+,status
+,display_status
+,irb_ec_type
+,comments
+,cros_site_id
+,sponsors_site_id
+,sites_id
+,street_1
+,street_2
+,city
+,state_or_region
+,postal_code
+,country_abbr
+,phone_number
+,created_at
+,updated_at
+,source_study_site_status
+from public.study_sites;
